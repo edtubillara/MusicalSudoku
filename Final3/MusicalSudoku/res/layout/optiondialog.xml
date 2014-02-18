@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Set Color Theme"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <RadioGroup
+            android:id="@+id/radioselectcolor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <RadioButton
+                android:id="@+id/radioButtonBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Blue" />
+
+            <RadioButton
+                android:id="@+id/radioButtonRed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Red" />
+
+            <RadioButton
+                android:id="@+id/radioButtonGreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green" />
+
+            </RadioGroup>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Set Chord Progression"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <RadioGroup
+                android:id="@+id/radioselectchordprogression"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <RadioButton
+                    android:id="@+id/radioButtonProg1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="I VI II V" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonProg2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="II V I" />
+
+                <RadioButton
+                    android:id="@+id/radioButtonProg3"
+                    android:layout_width="149dp"
+                    android:layout_height="wrap_content"
+                    android:text="I IV I V VI I V" />
+         
+        </RadioGroup>
+
+            <Button
+                android:id="@+id/donewithoption"
+                android:layout_width="138dp"
+                android:layout_height="wrap_content"
+                android:text="Done" />
+
+    </LinearLayout>
+
+</ScrollView>
